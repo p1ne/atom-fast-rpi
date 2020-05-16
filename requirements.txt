@@ -1,0 +1,7 @@
+gatt==0.2.7
+py-zabbix==1.1.5
+urllib3==1.24.1
+dbus-python==1.2.16
+PyBluez==0.23
+PyGObject==3.30.4
+Cython==0.29.17

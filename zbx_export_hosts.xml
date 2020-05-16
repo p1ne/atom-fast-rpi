@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>4.4</version>
+    <date>2020-05-16T10:49:40Z</date>
+    <groups>
+        <group>
+            <name>atom</name>
+        </group>
+    </groups>
+    <hosts>
+        <host>
+            <host>atom</host>
+            <name>Atom</name>
+            <groups>
+                <group>
+                    <name>atom</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <items>
+                <item>
+                    <name>Dose power</name>
+                    <type>TRAP</type>
+                    <key>atom.dose_power</key>
+                    <delay>0</delay>
+                    <value_type>FLOAT</value_type>
+                    <units>uSv/h</units>
+                </item>
+            </items>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+    </hosts>
+    <graphs>
+        <graph>
+            <name>Dose_power</name>
+            <graph_items>
+                <graph_item>
+                    <color>1A7C11</color>
+                    <item>
+                        <host>atom</host>
+                        <key>atom.dose_power</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+    </graphs>
+</zabbix_export>
