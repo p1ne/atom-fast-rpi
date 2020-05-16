@@ -1,7 +1,11 @@
 # atom-fast-rpi
-Сборщик показаний для дозиметров Atom Fast компании (КБ Радар)[https://kbradar.org/] на базе Raspberry Pi
+Сборщик показаний для дозиметров Atom Fast компании [КБ Радар](https://kbradar.org/) на базе Raspberry Pi
+
+![images/graph.png](images/graph.png)
 
 Работа системы проверялась на RPi 3B+ и RPi 4 совместно с дозиметром Atom Fast 8850. Возможно будет работать на любом одноплатнике с поддержкой протокола Bluetooth LE.
+
+![images/piface.jpg](images/piface.jpg)
 
 # Основные возможности
 
